@@ -276,11 +276,11 @@ window.fbAsyncInit = function () {
 
 function shareScore(nombre, score) {
   FB.ui({
-    method: 'share',
-    quote: ":c",
+   method: 'share',
+    quote: "Hola juega conmigo.",
     caption: "help",
-    href: 'https://www.xd.com', //videogame link xd
-    hashtag: "#:D",
+    href: 'https://ivanz20.github.io/', //videogame link xd
+    hashtag: "#MemoryRush",
   }, function (response) { });
 }
 
